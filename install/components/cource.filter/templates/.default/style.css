@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+.ttmedia__filter {
+  max-width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+    .ttmedia__filter_group {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .ttmedia__filter_label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    .ttmedia__filter_input {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    .ttmedia__filter_submit {
+        width: 100%;
+        padding: 10px;
+        background-color: #0288d1;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    .ttmedia__filter_submit:hover {
+        background-color: #0277bd;
+    }

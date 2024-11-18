@@ -1,0 +1,23 @@
+.ttmedia__table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.ttmedia__table th,
+.ttmedia__table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #0288d1;
+}
+.ttmedia__table th {
+    background-color: #0288d1;
+    color: white;
+}
+.ttmedia__table td {
+    background-color: #e1f5fe;
+}
+.ttmedia__table tr:nth-child(even) td {
+    background-color: #b3e5fc;
+}
