@@ -69,9 +69,9 @@ class TTMediaCourceFilter extends CBitrixComponent
 
         ${$FILTER_NAME} = $filter;
 
-        // если нет валидного кеша, получаем данные из БД
-        if ($this->startResultCache()) {
-
+        // без кэширования
+        // if ($this->startResultCache()) {
+        // }    
             $codeList = [];
 
             $select = $arParams['FIELD_CODE'] ? $arParams['FIELD_CODE'] : ['*'];
@@ -90,7 +90,6 @@ class TTMediaCourceFilter extends CBitrixComponent
                 'CODE_LIST' => $codeList,
             ];
 
-            $this->IncludeComponentTemplate();
-        }
+            $this->IncludeComponentTemplate(); 
     }
 }

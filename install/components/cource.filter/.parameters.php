@@ -16,8 +16,8 @@ $arComponentParameters = [
             'DEFAULT' => 'arrFilter',
         ],
         // настройки кэширования
-        'CACHE_TIME' => [
-            'DEFAULT' => 3600
-        ],
+        // 'CACHE_TIME' => [
+        //     'DEFAULT' => 3600
+        // ],
     ],
 ];
