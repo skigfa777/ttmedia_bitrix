@@ -3,8 +3,8 @@
 use \Bitrix\Main\Type;
 use \TTMedia\CurrencyTable;
 
-// ini_set('display_errors', '1');
-// error_reporting(E_ALL);
+ini_set('display_errors', '1');
+error_reporting(E_ALL);
 
 require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_admin_before.php");
 
@@ -118,7 +118,7 @@ $editTab->BeginNextTab();
     </tr>
     <?endif;?>
     <tr class="adm-detail-required-field">
-        <td>CODE</td>
+        <td>CODE (не > 5 символов)</td>
         <td><input type="text" name="CODE" size="40" value="<? echo $CODE?>"></td>
     </tr>
     <tr class="adm-detail-required-field">
